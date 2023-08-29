@@ -1,0 +1,26 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.top-nav-ul {
+  display: flex;
+  align-items: center;
+}
+
+.top-nav-list {
+  background: var(--main-color);
+  padding: 10px;
+  color: var(--white-color);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 100%;
+}
+a.top-nav-list.button-main p {
+  font-size: 8px;
+}
+
+p.strong-text {
+  font-size: 13px !important;
+}
