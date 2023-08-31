@@ -44,7 +44,6 @@ ul.top-nav-ul {
   color: #fff;
   transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
   gap: 5px;
-
 }
 
 .payment {
@@ -82,4 +81,46 @@ p.strong-text span {
   border-bottom: none;
   box-shadow: none;
   background-color: #84b332;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+  background: var(--main-color);
+  padding: 0 15px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.main-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+a.menu-link {
+  padding: 10px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+a.menu-link:hover {
+  color: #66c4ff;
+}
+a.menu-link span {
+  transition: 0.3s;
+}
+
+a.menu-link:hover span {
+  transform: rotateY(60deg);
+}
+a.logo-link img {
+  width: 130px;
+}
+a.logo-link img {
+  width: 130px;
 }
