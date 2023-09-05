@@ -84,5 +84,11 @@
 }
 
 .select2-selection {
-  padding: 10px;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center;
+}
+
+.select2-selection__arrow {
+  top: initial !important;
 }
