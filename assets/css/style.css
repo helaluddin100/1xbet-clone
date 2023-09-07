@@ -92,3 +92,29 @@
 .select2-selection__arrow {
   top: initial !important;
 }
+
+.select2-results__option--selected {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.select2-results__option {
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
+
+.input-group .select2-container {
+  width: 90% !important;
+}
+
+.select2-container {
+  width: 100% !important;
+}
+.c-registration__fields {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
+.form-body {
+  padding: 15px 20px;
+}
