@@ -14,6 +14,10 @@
 
     <!-- ==================Bootstrap============ -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
     <!-- ================default=============== -->
     <link rel="stylesheet" href="assets/css/default.css" />
     <!-- =================style============ -->
@@ -270,7 +274,158 @@
                               role="tabpanel"
                               aria-labelledby="home-tab"
                             >
-                              VUDA
+                              <div class="one-click-form">
+                                <form action="">
+                                  <div class="mb-3">
+                                    <select
+                                      class="form-select select-country"
+                                      aria-label="Default select example"
+                                    >
+                                      <option value="1" selected>Russia</option>
+                                      <option value="2">Belarus</option>
+                                      <option value="3">Kazakhstan</option>
+                                    </select>
+                                  </div>
+                                  <div class="mb-3">
+                                    <select
+                                      class="form-select select-country"
+                                      aria-label="Default select example"
+                                    >
+                                      <option value="1" selected>
+                                        EUR (Euro)
+                                      </option>
+                                      <option value="2">USD (US dollar)</option>
+                                      <option value="3">
+                                        RUB (Russian rouble)
+                                      </option>
+                                    </select>
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label
+                                      for="exampleFormControlInput1"
+                                      class="form-label"
+                                      >Email address</label
+                                    >
+                                    <input
+                                      type="email"
+                                      class="form-control"
+                                      id="exampleFormControlInput1"
+                                      placeholder="name@example.com"
+                                    />
+                                  </div>
+                                  <div class="c-registration__button-wrap">
+                                    <div
+                                      class="c-registration__button button button_light c-registration-button submit_registration"
+                                    >
+                                      <span
+                                        class="c-registration-button__label"
+                                      >
+                                        Register
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div
+                                    class="c-registration__fields c-registration__fields--main"
+                                  >
+                                    <div
+                                      class="c-registration__field c-registration__field--captcha"
+                                    >
+                                      <span
+                                        class="c-registration-recaptcha-inner"
+                                        >This site is protected by reCAPTCHA and
+                                        the Google
+                                        <a
+                                          id="registration_form_field_privacy_link"
+                                          target="_self"
+                                          class="link"
+                                          href=""
+                                        >
+                                          Privacy Policy</a
+                                        >
+                                        and
+                                        <a
+                                          id="registration_form_field_terms_link"
+                                          target="_self"
+                                          class="link"
+                                          href=""
+                                          >Terms of Service</a
+                                        >
+                                        apply.</span
+                                      >
+                                      <div
+                                        data-sitekey="6LcHxwcUAAAAAIUazEuUGlfmc7IyjkUDFXwtd70t"
+                                        style="display: none"
+                                      >
+                                        <div
+                                          class="grecaptcha-badge"
+                                          data-style="bottomright"
+                                          style="
+                                            width: 256px;
+                                            height: 60px;
+                                            display: block;
+                                            transition: right 0.3s ease 0s;
+                                            position: fixed;
+                                            bottom: 14px;
+                                            right: -186px;
+                                            box-shadow: gray 0px 0px 5px;
+                                            border-radius: 2px;
+                                            overflow: hidden;
+                                          "
+                                        >
+                                          <div class="grecaptcha-logo">
+                                            <iframe
+                                              title="reCAPTCHA"
+                                              src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcHxwcUAAAAAIUazEuUGlfmc7IyjkUDFXwtd70t&amp;co=aHR0cHM6Ly8xeGJldC5jb206NDQz&amp;hl=en&amp;v=0hCdE87LyjzAkFO5Ff-v7Hj1&amp;size=invisible&amp;cb=siyvlo3pdk2d"
+                                              width="256"
+                                              height="60"
+                                              role="presentation"
+                                              name="a-7tlscb5g5hyf"
+                                              frameborder="0"
+                                              scrolling="no"
+                                              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                                            ></iframe>
+                                          </div>
+                                          <div class="grecaptcha-error"></div>
+                                          <textarea
+                                            id="g-recaptcha-response-2"
+                                            name="g-recaptcha-response"
+                                            class="g-recaptcha-response"
+                                            style="
+                                              width: 250px;
+                                              height: 40px;
+                                              border: 1px solid
+                                                rgb(193, 193, 193);
+                                              margin: 10px 25px;
+                                              padding: 0px;
+                                              resize: none;
+                                              display: none;
+                                            "
+                                          ></textarea>
+                                        </div>
+                                        <iframe style="display: none"></iframe>
+                                      </div>
+                                    </div>
+                                    <div class="c-registration__rules">
+                                      By clicking this button you confirm that
+                                      you have read and agree to the
+                                      <a href="" id="regRules" target="_blank"
+                                        >Terms and Conditions</a
+                                      >
+                                      and
+                                      <a
+                                        href=""
+                                        id="regPolitics"
+                                        target="_blank"
+                                        >Privacy Policy</a
+                                      >
+                                      of the company and confirm that you are of
+                                      legal age
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
                             </div>
                             <div
                               class="tab-pane fade"
@@ -298,6 +453,8 @@
     <script src="assets/js/jquery.min.js"></script>
     <!-- ===============bootstrap=========== -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
     <!-- =============custom js========= -->
     <script src="assets/js/app.js"></script>
   </body>
